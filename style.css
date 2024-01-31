@@ -1,0 +1,82 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bodybck.jpg");
+}
+header {
+    background-color: #333;
+    color: rgb(61, 184, 30);
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #171918, #495d5b); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    margin: 10;
+    font-family: "Monaco", monospace;
+    font-size: 50px
+
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+
+
+}
+
+.section-one, .section-two {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgb(165, 182, 162);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 600px;
+    justify-content: center;
+
+}
+
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+.AddButton {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#expenseList {
+    margin-top: 20px;
+}
+
+#categoryTotals {
+    margin-top: 20px;
+}
+.delete-expense-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-expense-btn:hover {
+    background-color: #861010;
+}
